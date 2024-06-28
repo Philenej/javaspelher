@@ -1,0 +1,228 @@
+#PizzabeginContainer img.Olijf1{
+    width: 300px;
+    height: 288px;
+    padding-top: 140px;
+    padding-left: 130px;
+} 
+#PizzabeginContainer img.Champignon1{
+    width: 373px;
+    height: 299px;
+    padding-top: 170px;
+    padding-left: 60px;
+}
+
+#PizzabeginContainer img.Tomaat1{
+    width: 403px;
+    height: 319px;
+    padding-top: 160px;
+    padding-left: 100px;
+}
+
+#PizzabeginContainer img.Salami1{
+    width: 403px;
+    height: 359px;
+    padding-top: 130px;
+    padding-left: 50px;
+}
+#PizzabeginContainer img.Paprika1{
+    width: 543px;
+    height: 359px;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+#PizzabeginContainer img.Peper1{
+    width: 343px;
+    height: 159px;
+    padding-top: 190px;
+    padding-left: 40px;
+}
+#PizzabeginContainer img.Kaaslaag{
+    width: 490px;
+    height: 409px;
+    padding-top: 110px;
+    padding-left: 40px;
+
+}
+body {
+    background-color: rgb(165, 109, 84);
+}
+
+.Titel{
+    margin: 150px 590px;
+}
+#Terug{
+    padding: 10px 20px;
+    background-color: rgba(255, 123, 0, 0.762);
+    border-color: bisque;
+
+}
+
+
+.Pizzadeeg {
+    z-index: 1;
+}
+#Beginknop {
+    margin: 100px 600px;
+    padding: 40px 60px;
+    font-size: larger;
+    border-radius: 10%;
+    border-color: brown;
+}
+
+.Titel2{
+    margin: 20px 520px;
+}
+#berichtButton{
+    padding: 20px 10px;
+    border-radius: 5%;
+    display: none;
+}
+#timer{
+    height: 40px;
+    font-size: x-large;
+    padding: 10px 10px;
+    border-radius: 5%;
+
+}
+#containerheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#Kleurveranderen{
+    margin-left: 120px;
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#ingredientenlijst {
+    background-color: rgb(212, 212, 212);
+    width: 200px;
+    height: 450px;
+    display: inline-block;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+#PizzabeginContainer {
+    position: relative;
+    width: 558px;
+    height: 496px;
+    padding-top: 70px;
+
+}
+#PizzabeginContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 558px;
+    height: 496px;
+    padding-top: 70px;
+    padding-right: 300px;
+
+}
+
+
+img.Tomatensaus{
+    width: 50px;
+    height: 80px;
+}
+
+img.Kaas{
+    width: 60px;
+    height: 60px;
+    padding-left: 60px;
+}
+img.Champignon {
+    width: 60px;
+    height: 60px;
+    padding-top: 30px;
+}
+img.Olijf{
+    width: 50px;
+    height: 50px;
+    padding-left: 60px;
+}
+
+img.Tomaat{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+img.Spek{
+    width: 50px;
+    height: 50px;
+    padding-left: 60px;
+}
+img.Salami{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+img.Peper{
+    width: 50px;
+    height: 50px;
+    padding-left: 60px;
+}
+img.Paprika{
+    width: 50px;
+    height: 50px;
+    padding-top: 30px;
+}
+
+
+
+
+
+/* .Pizzasaus{
+    position: absolute;      
+    /* width: 100%;      
+    height: 100%;       */
+    /* background: no-repeat center/cover;     
+    z-index: 1;
+    
+    width: 558px;
+    height: 496px;
+    padding-top: 70px;
+    padding-right: 300px;
+
+
+   
+} */ 
+
+/* .Kaaslaag{ */
+    /* width: 558px;
+    height: 496px; */
+    /* padding-top: 70px;
+    padding-right: 300px;
+
+} */
+
+
+
+/* .Tomaat1{
+    width: 558px;
+    height: 496px;
+    padding-top: 70px;
+    padding-right: 300px;
+ 
+} */
+
+.Kaaslaag{
+    width: 458px;
+    height: 396px;
+}
+.Pizzasaus, .Kaaslaag {
+    position: absolute; /* zorgt voor positie */
+    z-index: 1; /* Moet lager zijn dan de andere ingredienten */
+}
+.Champignon1, .Olijf1, .Tomaat1, .Spek1, .Salami1, .Paprika1, .Peper1 {
+    position: absolute;
+    z-index: 2; /* Moet hoger zijn dan de Saua en Kaaslaag */
+}
+
